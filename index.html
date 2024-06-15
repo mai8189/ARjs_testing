@@ -1,7 +1,6 @@
 <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1.3.0/dist/aframe-master.min.js"></script>
 
-<!--<script src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>-->
-<script src='../../../../aframe/build/aframe-ar-nft.js'></script>
+<script src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
 
 <script>
     window.onload = function() {
@@ -55,7 +54,7 @@
         embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
 
         <a-assets>
-            <video src="mov_bbb.mp4"
+            <video src="[video link goes here]" 
                 preload="auto" id="vid" response-type="arraybuffer" loop
                 crossorigin webkit-playsinline autoplay muted playsinline>
             </video>
@@ -63,7 +62,7 @@
 
         <a-nft
             videohandler
-            type='nft' url='../../data/dataNFT/pinball'
+            type='nft' url='[marker goes here]'
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
         >
             <a-video
